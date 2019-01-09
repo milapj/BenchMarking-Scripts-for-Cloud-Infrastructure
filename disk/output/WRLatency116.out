@@ -1,0 +1,4 @@
+16WorkLoad Concurrency BlockSize MyDiskLatency Theoreticallatency Efficiency IOPS
+WR
+            16         1000         0.429171         4.200000                 -89.781642
+   -1778.435125

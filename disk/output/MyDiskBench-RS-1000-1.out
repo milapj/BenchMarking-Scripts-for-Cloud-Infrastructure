@@ -1,0 +1,1 @@
+/var/spool/slurmd/job32004/slurm_script: line 4:  6738 Segmentation fault      (core dumped) ./DISKFIN disk-RS-1000-1thread.dat

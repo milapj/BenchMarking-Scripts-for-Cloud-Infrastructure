@@ -1,0 +1,5 @@
+2
+2
+
+ Workload Concurrency BlockSize MyRAMBenchValue TheoreticalValue MyRAMBenchEfficiency
+ RWR	       2	         1000	           1.982         34.080002	         5.815796	

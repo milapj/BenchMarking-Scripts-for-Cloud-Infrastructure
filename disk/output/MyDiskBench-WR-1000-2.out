@@ -1,0 +1,3 @@
+WorkLoad Concurrency BlockSize MyDiskThroughput TheoreticalThroughput Efficiency
+WR
+      2         1000000         inf                   600.000000                   inf

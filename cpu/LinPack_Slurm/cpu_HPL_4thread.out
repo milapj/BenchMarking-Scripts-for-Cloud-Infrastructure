@@ -1,0 +1,42 @@
+redcompute-12
+This is a SAMPLE run script for running a shared-memory version of
+Intel(R) Distribution for LINPACK* Benchmark. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+*Other names and brands may be claimed as the property of others.
+./runme_xeon64: 37: [: -gt: unexpected operator
+Wed Mar 28 10:15:43 UTC 2018
+Sample data file lininput_xeon64.
+
+Current date/time: Wed Mar 28 10:15:43 2018
+
+CPU frequency:    2.850 GHz
+Number of CPUs: 2
+Number of cores: 2
+Number of threads: 4
+
+Parameters are set to:
+
+Number of tests: 1
+Number of equations to solve (problem size) : 20000
+Leading dimension of array                  : 20000
+Number of trials to run                     : 2    
+Data alignment value (in Kbytes)            : 64   
+
+Maximum memory requested that can be used=3200465536, at the size=20000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+20000  20000  64     92.980     57.3687  3.669736e-10 3.248520e-02   pass
+20000  20000  64     93.802     56.8659  3.669736e-10 3.248520e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+20000  20000  64      57.1173  57.3687 
+
+Residual checks PASSED
+
+End of tests
+
+Done: Wed Mar 28 10:19:50 UTC 2018

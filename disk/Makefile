@@ -1,0 +1,55 @@
+CC=gcc
+CFLAGS=-g -Wall -O2 -lpthread
+
+run:
+	sbatch WR_Latency_1_1t.slurm
+	sbatch WR_Latency_1_2t.slurm
+	sbatch WR_Latency_1_4t.slurm
+	sbatch WR_Latency_1_8t.slurm
+	sbatch WR_Latency_1_16t.slurm
+	sbatch WR_Latency_1_32t.slurm
+	sbatch WR_Latency_1_128t.slurm
+	sbatch RR_Latency_1_1t.slurm
+	sbatch RR_Latency_1_2t.slurm
+	sbatch RR_Latency_1_4t.slurm
+	sbatch RR_Latency_1_8t.slurm
+	sbatch RR_Latency_1_16t.slurm
+	sbatch RR_Latency_1_32t.slurm
+	sbatch RR_Latency_1_64t.slurm
+	sbatch RR_Latency_1_128t.slurm
+	sbatch RS_1000_1t.slurm
+	sbatch RS_10000_1t.slurm
+	sbatch RS_100000_1t.slurm
+	sbatch RS_1000_2t.slurm
+	sbatch RS_10000_2t.slurm
+	sbatch RS_100000_2t.slurm
+	sbatch RS_1000_4t.slurm
+	sbatch RS_10000_4t.slurm
+	sbatch RS_100000_4t.slurm
+	sbatch RR_1000_1t.slurm
+	sbatch RR_1000_2t.slurm
+	sbatch RR_1000_4t.slurm
+	sbatch RR_10000_1t.slurm
+	sbatch RR_10000_2t.slurm
+	sbatch RR_10000_4t.slurm
+	sbatch RR_100000_1t.slurm
+	sbatch RR_100000_2t.slurm
+	sbatch RR_100000_4t.slurm
+	sbatch WS_1000_1t.slurm
+	sbatch WS_1000_2t.slurm
+	sbatch WS_1000_4t.slurm
+	sbatch WS_10000_1t.slurm
+	sbatch WS_10000_2t.slurm
+	sbatch WS_10000_4t.slurm
+	sbatch WS_100000_1t.slurm
+	sbatch WS_100000_2t.slurm
+	sbatch WS_100000_4t.slurm
+	sbatch WR_1000_1t.slurm
+	sbatch WR_1000_2t.slurm
+	sbatch WR_1000_4t.slurm
+	sbatch WR_10000_1t.slurm
+	sbatch WR_10000_2t.slurm
+	sbatch WR_10000_4t.slurm
+	sbatch WR_100000_1t.slurm
+	sbatch WR_100000_2t.slurm
+	sbatch WR_100000_4t.slurm
